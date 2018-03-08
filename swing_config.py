@@ -16,6 +16,10 @@ con0 = np.array([1000, 100, 0.01, np.deg2rad(75)])
 a_max = np.array([10, 10]) * 10
 q_max = np.array([1, 1]) * con0[-1]
 
+amp_max = 2 * np.pi
+ome_max = 10
+phi_max = 2 * np.pi
+
 t0 = 0
 t1 = 10
 dt = 0.01
